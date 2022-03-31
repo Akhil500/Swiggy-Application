@@ -1,0 +1,113 @@
+body{
+    width: 100%;
+    margin: 0px;
+}
+/* .header-container{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+} */
+
+.header{
+    position:static;
+    margin: 0px ;
+    display: flex;
+    /* grid-template-columns: auto  auto ; */
+    padding: 15px;
+    justify-content: space-around;  
+    align-items: center;
+    width: 100%;
+    z-index: 5;
+    background-color: white;
+    /* box-shadow: 1px 5px 10px 0px #888888; */
+    animation:slide-down 0.7s;
+    top:0%;
+    height: 50px;
+}
+.header-left {
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+
+.header-left-name{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-right: 10px;
+    text-underline-offset: 5px;
+    margin: 0px 0px 0px 20px;
+}
+.header-left-name:hover{
+    color: #fc8019;
+    cursor: pointer;
+}
+
+.header-left-place{
+    font-weight: 500;
+    font-size: 14px;
+    color: #93959f;
+    cursor: pointer;
+    margin: 5px 0px 0px 0px;
+}
+
+ 
+nav{
+    font-size: 16px;
+    word-spacing: 40px;
+    display: block;
+    font-weight: 500;
+    text-decoration: none;
+   
+}
+a:active , i:active{
+    text-decoration: none;
+    font-weight:500;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+}
+a:hover , i:hover{
+    color:#fc8019;
+    text-decoration: none;
+    cursor: pointer;
+}
+a, i{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    .header{
+        display: block;
+        z-index: 5;
+        margin: 0px;
+        padding: 10px;
+        /* grid-template-columns: 20px 20px; */
+        justify-content: center;
+        height: auto;
+    }
+    nav{
+        word-spacing: 10px;
+       text-align: center;
+    }
+    .header-left{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: start;
+        word-break: break-all;
+        padding:10px;
+    }
+   
+}
+
+
+
+
+
+/* .first-list{grid-area: first;}
+.second-list{grid-area:second;}
+.third-list{grid-area: third;}
+.fourth-list{grid-area: fourth;} */

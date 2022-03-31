@@ -1,0 +1,139 @@
+
+.hotelheading{
+    margin: 22px 25px 0px 25px;
+    position: relative;
+    right: 45px;
+   
+}
+.heading{    
+    background-color: #171a29;
+    position: sticky;
+    top:0;
+    margin: 0px ;
+    z-index: 100;
+    transition: 1.3s ease-in;
+}
+.headingsub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.imagediv{
+    padding: 22px 22px 0px 0px;
+    position: relative;
+    right: 45px;
+}
+.imageheading{
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    /* padding-left: 50px; */
+}
+
+.hotelname{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 100;
+    margin: 0px;
+    
+}
+
+.hoteltype , .hoteladdress , .hotellocation , .hotelrating {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 70%;
+}
+
+.duration{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    /* margin: 10px; */
+    /* display: flex; */
+}
+.durationsub{
+    display: flex;
+    /* position: fixed;
+    top: 20px; */
+}
+.hoteloffer{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.rating{
+    font-size: 12px;
+    opacity: 70%;
+    display: block;
+}
+.offers{
+    border: 1px solid rgba(255, 255, 255, 0.664);
+    padding: 0px 20px;
+    word-break: break-all;
+    width: 280px;
+    margin: 0px;
+    height: 100%;
+    position: relative;
+    left: 50px;
+}
+
+.offerstitle{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 18%;
+    bottom: 10px;
+    z-index: 15;
+    background-color: #171a29;
+    padding: 10px;
+}
+.durationrating {
+    border-right: 1px solid rgba(255, 255, 255, 0.308);
+    padding: 0px 20px 0px 0px;
+    line-height: 1.5;
+}
+.durationrupee{
+    padding: 0px 20px 0px 20px;
+    line-height: 1.5;
+}
+.durationminutes {
+    border-right: 1px solid rgba(255, 255, 255, 0.308);
+    padding: 0px 20px 0px 20px;
+    line-height: 1.5;
+}
+
+.inputbox{
+    position: relative;
+    top: 20px;    
+}
+
+.searchdishes{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    text-decoration: #3d4152;
+    box-shadow: 0 3px 15px 0 rgb(40 44 63 / 10%);
+    border: 1px  solid rgba(0,0,0,.04);;
+    margin-right: 20px;
+     outline: none;
+}
+.vegornonveg , .favourite{
+    padding: 10px;
+    font-weight: 600;
+    color: rgb(107, 103, 103);
+    margin-right: 20px;    
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px  solid rgba(0,0,0,.04);
+    box-shadow: 0 3px 15px 0 rgb(40 44 63 / 10%);
+}
+
+.favourite:hover{
+    color: #fa4a5b;
+    cursor: pointer;
+}

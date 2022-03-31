@@ -1,0 +1,14 @@
+.subheaderlocation{
+    display: flex;
+    background-color: #eff0f1;
+    color: rgb(65, 63, 63);
+    font-size: 14px;
+    justify-content:start;
+    margin-top: 78px;
+    /* position: sticky; */
+    z-index: 100;
+}
+
+.location{
+    margin : 5px 0px 5px 180px;
+}
