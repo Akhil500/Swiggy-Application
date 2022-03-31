@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carousal.css">
+    <link rel="stylesheet" href="second-menu.css">
+    <link rel="stylesheet" href="resturant-list.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    
+    <title>Swiggy Page</title>
+</head>
+<body>
+   
+    <div class="header" id="header"> 
+        <div class="header-left">
+                <img src="swiggy-1.svg" alt="" width="50px" height="50px">
+                <p class="header-left-name">Other</p>
+                <p class="header-left-place">Bengaluru, Karnataka, India</p>
+        </div>
+        <div class="header-right">
+            <nav>
+                <a href="/second.html" class="header-right-nav"><i class="fas fa-search" style="margin-right: 10px;"></i>Search</a>
+                <a href="#" class="header-right-nav"><i class="fas fa-percent" style="margin-right: 10px;"></i>Offers<sup style="color: #ffa700;padding: 0px 0px 0px 4px;font-size: 10px;font-weight: 600;">NEW</sup></sup></a>
+                <a href="#" class="header-right-nav"><i class="fas fa-life-ring" style="margin-right: 10px;"></i>Help</a>
+                <a href="#" class="header-right-nav"><i class="fas fa-user" style="margin-right: 10px;"></i>Signin</a>
+                <a href="#" class="header-right-nav"><i class="fas fa-cart-arrow-down" style="margin-right: 10px;"></i>Cart</a>
+               
+            </nav>
+
+        </div>
+   </div>
+   
+   <div id="flex-container" class="flex-container">
+       <div class="slide-container">
+            <div id="slides" class="slides">
+            <p id="image-title"></p>
+            </div>
+                
+            <button id="buttonLeft" onclick="leftscroll()" class="left" ><span class="fa fa-arrow-left"></span></button>
+            <button id="buttonRight" onclick="rightscroll()" class="right" ><span class="fas fa-arrow-right"></span></button>    
+       </div>
+    </div>
+     
+
+    <div class="sub-header" id="sub-header">
+        <div class="sub-header-left">
+            <p>1588 Restaurants</p>
+        </div>
+        <div class="sub-header-right">
+            <span href="#" class="navigaotr active">Relevance</span>
+            <span href="#" class="navigaotr">Delivery Time</span>
+            <span href="#" class="navigaotr">Rating</span>
+            <span href="#" class="navigaotr">Cost:Low To High</span>
+            <span href="#" class="navigaotr">Cost:High To Low</span>
+            <span href="#" class="navigaotr"><span class="fas fa-filter" ></span>  Filters</span>
+        </div>
+    </div>  <hr class="line"></hr>
+    
+  
+    <div class="list-container">
+        
+       
+        <!-- <div class="second-list">
+            <img src="https://panorbit.s3.ap-south-1.amazonaws.com/restaurants/dosa.jpeg" alt="" class="list-image">
+            <p class="title-name">KFC</p>
+            <p class="sub-title">Jayanagar 7th block Banglore</p>
+            <p class="items">Biryanis Fried rice  Starters Puffs Rotis</p>
+            <p class="rating">4.5</p>
+            <p class="time">46 min</p>
+            <p class="cost-for">250 rs for two</p>
+            <p class="rating-count">1000+</p>
+        </div>
+        <div class="third-list">
+            <img src="https://panorbit.s3.ap-south-1.amazonaws.com/restaurants/bracoli.jpeg" alt="" class="list-image">
+            <p class="title-name">Dominos</p>
+            <p class="sub-title">Jayanagar 7th block Banglore</p>
+            <p class="items">Biryanis Fried rice  Starters Puffs Rotis</p>
+            <p class="rating">4.5</p>
+            <p class="time">46 min</p>
+            <p class="cost-for">250 rs for two</p>
+            <p class="rating-count">1000+</p>
+        </div>
+        <div class="fourth-list">
+            <img src="https://panorbit.s3.ap-south-1.amazonaws.com/restaurants/somosa.jpeg" alt="" class="list-image">
+            <p class="title-name">Pizza Shop</p>
+            <p class="sub-title">Jayanagar 7th block Banglore</p>
+            <p class="items">Biryanis Fried rice  Starters Puffs Rotis</p>
+            <p class="rating">4.5</p>
+            <p class="time">46 min</p>
+            <p class="cost-for">250 rs for two</p>
+            <p class="rating-count">1000+</p>
+        </div> -->
+    </div>
+    <script src="resturant-list.js"></script>
+    <script src="carousal.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+</body>
+</html>
+

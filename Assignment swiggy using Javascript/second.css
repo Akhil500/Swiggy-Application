@@ -1,0 +1,215 @@
+.sub-header{
+    display: flex;
+    background-color: #eff0f1;
+    color: rgb(65, 63, 63);
+    font-size: 12px;
+    justify-content:start;
+}
+
+.location{
+    margin : 5px 0px 5px 180px;
+}
+
+.hotel-heading{
+    padding: 10px 0px 0px 0px;
+}
+.heading{    
+    background-color: #171a29;
+}
+.heading-sub{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.image-heading{
+    width: 250px;
+    height: 160px;
+    object-fit: cover;
+    padding-left: 50px;
+}
+
+.hotel-name{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 38px;
+}
+
+.hotel-type , .hotel-address , .hotel-location , .hotel-rating {
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 70%;
+}
+
+.duration{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300;
+    /* margin: 10px; */
+    display: flex;
+}
+
+.hotel-offer{
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 500;
+}
+.rating{
+    font-size: 12px;
+    opacity: 70%;
+    display: block;
+}
+.offers{
+    border: 1px solid white;
+    padding: 0px 20px;
+    word-break: break-all;
+    width: 250px;
+    margin: 0px;
+    height: 150px;
+}
+
+.offers-title{
+    color: white;
+    font-size: 20px;
+    position: relative;
+    right: 18%;
+    bottom: 10px;
+    z-index: 15;
+    background-color: #171a29;
+    padding: 10px;
+}
+.duration-rating {
+    border-right: 1px solid rgba(255, 255, 255, 0.308);
+    padding: 0px 20px 0px 0px;
+    line-height: 1.5;
+}
+.duration-rupee{
+    padding: 0px 20px 0px 20px;
+    line-height: 1.5;
+}
+.duration-minutes {
+    border-right: 1px solid rgba(255, 255, 255, 0.308);
+    padding: 0px 20px 0px 20px;
+    line-height: 1.5;
+}
+
+.input-box{
+    position: relative;
+    top: 20px;
+    
+}
+.search-dishes{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px;
+    border: none;
+    text-decoration: #3d4152;
+    box-shadow: 0 3px 15px 0 rgb(40 44 63 / 10%);
+    border: 1px  solid rgba(0,0,0,.04);;
+    margin-right: 20px;
+}
+.veg-or-nonveg , .favourite{
+    padding: 10px;
+    font-weight: 600;
+    color: rgb(107, 103, 103);
+    margin-right: 20px;    
+    font-size: 14px;
+    background-color: #ffffff;
+    border: 1px  solid rgba(0,0,0,.04);
+    box-shadow: 0 3px 15px 0 rgb(40 44 63 / 10%);
+}
+
+.deatils-sub{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.menu{
+    display: block;
+    word-break: break-all;
+    /* width: 80px; */
+   
+}
+
+
+.items-list{
+    border-left: 1px solid rgba(0, 0, 0, 0.178);
+    padding: 50px;
+}
+.Recommended{
+    color: #282c3f;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 0;
+}
+.Recommended-item{
+    font-size: 12px;
+    font-weight: 300;
+}
+.veg-logo{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+.food-name{
+    font-size: 17px;
+    font-weight: 500;
+    color: #3e4152;
+}
+
+.food-text{
+    font-size: 14px;
+    font-weight: 300;
+    color: #7e808c;
+    /* word-break: break-all;
+    width: 350px; */
+}
+.food-image{
+    /* float: right; */
+    left: 450px;
+    position: relative;
+    bottom: 155px;
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+}
+.add-to-cart-btn{
+    color: #60b246;
+    font-weight: 600;
+    padding: 10px;   
+    font-size: 13px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 80px;
+    float: right;
+    left: 170px;
+    border: 1px solid rgba(0, 0, 0, 0.13);
+}
+
+.line-hr{
+    width: 590px;
+    position: absolute;
+    bottom: 20px;
+    opacity: 50%;
+}
+
+.cart-heading{
+    font-size: 32px;
+    font-weight: 600;
+    color: #7e808c;
+}
+.cart-image{
+    width: 200px;
+    height: 200px;
+    opacity: 80%;
+}
+.cart-text{
+    word-break: break-all;
+    width: 200px;
+    color: #93959f;
+    font-weight: 300;
+    font-size: 16px;
+}
